@@ -1,0 +1,71 @@
+*{
+    font-family: 'Poppins','sans-serif';
+    color: white;
+}
+body{
+  
+    background: linear-gradient(135deg, #00feba , #5b548a) ;
+    height: 100vh;
+
+}
+
+.input-group {
+    width: 40% !important;
+
+
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+
+}
+button{
+    height:40px;
+    width:40px;
+    border-radius: 50% !important;
+    border-style: none;
+   i{
+      color: black;
+    }
+}
+.weather-details{
+     display: flex;
+
+      flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+
+}
+.weather{
+     display: flex;
+
+      flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.humidity-details h4, .humidity-details img,.wind-speed img, .wind-speed h4{
+    display:inline-block;
+    padding: 20px;
+}
+.result-box{
+    position: absolute;
+    z-index: 1;
+    right: 36%!important;
+    width: 36%;
+    background:white;
+   
+}
+.result-box ul{
+    display: none;
+}
+
+.search:hover .result-box{
+    display: block !important;
+}

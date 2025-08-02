@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px) {
+
+
+  input[type="text"]{
+     
+
+    width: 100%  !important;
+  }
+
+    .humidity-details h4, .humidity-details img,.wind-speed img, .wind-speed h4{
+ 
+    padding: 10px;
+    font-size: 18px;
+}
+
+.weather-details{
+     display: flex;
+
+      flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+}
+.humidity-details img,.wind-speed img{
+    height:60px;
+    width:60px;
+
+}
+.weather{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+}
+.weather-image{
+    height: 150px;
+}
+
+}
+@media screen and (max-width: 799px) {
+    .weather-details{
+
+      padding: 20px;
+    }
+    .result-box{
+    position: absolute;
+    z-index: 1;
+    right: 39%!important;
+    width: 30%;
+    background:white;
+}
+}
