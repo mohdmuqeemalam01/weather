@@ -3,7 +3,7 @@ const urlid = "https://api.openweathermap.org/data/2.5/weather?&units=metric";
 
 const city2 = document.querySelector(".form-control");
 const btn = document.querySelector("button");
-const sound=new Audio('/images/sound.mp3');
+const sound=new Audio('images/sound.mp3');
 const city = document.querySelector(".weather-city");
 const temp = document.querySelector(".weather-text");
 const Humidity = document.querySelector(".humidity");
