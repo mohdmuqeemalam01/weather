@@ -4,6 +4,6 @@
   
   <li>We used api of openWetherApi</li>
   
-  <li>You can access clicking by link </li>
+  <li>You can access clicking by link https://mohdmuqeemalam01.github.io/weather/</li>
   
 </ul> 
