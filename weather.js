@@ -14,7 +14,7 @@ async function chechweather(sk) {
 
     const response = await fetch(`${urlid}&q=${sk}&appid=${apikey}`);
     var data = await response.json();
-    console.log(data);
+    // console.log(data);
     city.innerHTML = data.name;
     temp.innerHTML =Math.round(data.main.temp) + "<sup>°c </sup> <spam>";
     Humidity.innerHTML = data.main.humidity + "<span>%<br> Humidity</span>";
@@ -26,7 +26,7 @@ city2.addEventListener('keypress', (e) => {
     if (e.key === "Enter") {
      sound.play();
         sk = (city2.value);
-        console.log(sk);
+        // console.log(sk);
         chechweather(sk);
     }
 
@@ -36,6 +36,6 @@ city2.addEventListener('keypress', (e) => {
 btn.addEventListener('click',()=>{
     sound.play();
         sk = (city2.value);
-        console.log(sk);
+        // console.log(sk);
         chechweather(sk);
 })
